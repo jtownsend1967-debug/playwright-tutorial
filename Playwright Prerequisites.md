@@ -20,28 +20,3 @@ If you have ever used a browser then you have seen seen the different kinds of U
 
 ## VS Code
 VS Code, a free development environment from Microsoft, is used by many companies for many scripting projects. All of the lessons and information I provide assumes a basic knowledge of VS Code.
-
-### VS Code Extensions
-Before you can create or run any Playwright tests, you need to install the required VS Code Extensions.
-
-1 On the left side of the VS Code window, look for the gear icon. It will say `Manage` if you hover over it.
-2 Click the gear icon and select `Extensions`.
-3 Search for `Playwright` and install the official Microsoft extensions.
-
-For my setup, I installed:
-* Playwright Test for VSCode (with Assertion)
-* Playwright Code Snippets
-* Playwright Test for VSCode
-* Playwright Snapshot Helpers
-* Rayrun Playwright Test Snippets
-* Playwright Test Runner
-
-With these extensions I was able to run my first (simple) Playwright test. I suggest you start with these extensions. Once you have some familiarity with Playwright you may want to install other VS Code extensions.
-
-One tip: do not rely on AI tools. While helpful, you will learn more by figuring it out yourself.
-
-### Playwright VS Code Setup.
-1 From the VS Code Command Palette (View->Command Palette) type `Test: Install Playwright' and hit enter.
-2 Select thr three web browser options (Chromium, Firefox and WebKit).
-3 Leave `Use JavaScript' unchecked. Instead, VS Code will use Typescript.
-4 Select `Add Github Actions recipe` and hit enter.
